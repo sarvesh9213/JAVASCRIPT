@@ -12,6 +12,7 @@ let b = "sarvesh";
   let b = "kittu";
   console.log(b); // first this prints
 }
+b = 3; // updates to 3
 console.log(b);
 // kittu
 // sarvesh
