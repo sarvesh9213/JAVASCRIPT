@@ -1,6 +1,6 @@
 let a = 67;
 console.log(a);
-a = " sarvesh pandey ";
+a = " sarvesh pandey "; // updation is allowed
 console.log(a);
 // 67
 // sarvesh pandey
