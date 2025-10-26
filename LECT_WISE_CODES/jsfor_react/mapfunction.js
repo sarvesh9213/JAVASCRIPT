@@ -28,3 +28,10 @@ let newnames = names2.map((name) => {
 
 // Print the new array
 console.log(newnames); // ["Joe", "Joe", "Joe"]
+/////////////////////////////////////////////////// now again something new is coming uo //////////////////////////////////////
+let names = ["Pedro", "Jessica", "Carol"];
+
+names.map((name) => {
+  return <h1>{name}</h1>;
+});
+// this is acutually jsx that why isme hamne {name} use kera hai becuase saaath mai iske bhai html bhi lega hua hai
