@@ -8,3 +8,6 @@ let names = [
   "sarvesh",
   "dfvbdfb",
 ];
+let newnames = names.filter((beteeecheetahikhede) => {
+  return beteeecheetahikhede !== "sarvesh";
+});
