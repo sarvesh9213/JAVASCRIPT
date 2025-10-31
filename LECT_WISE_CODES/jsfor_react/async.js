@@ -15,4 +15,7 @@ event
   .catch((err) => {
     // ye ek dry catch hai
     console.log(err); // Runs when rejected
+  })
+  .finally(() => {
+    console.log("this has been executed properly");
   });
