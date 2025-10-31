@@ -9,8 +9,10 @@ const event = new Promise((resolve, reject) => {
 
 event
   .then((name) => {
+    // name has been grabed from the resolve
     console.log(name); // Runs when resolved
   })
   .catch((err) => {
+    // ye ek dry catch hai
     console.log(err); // Runs when rejected
   });
